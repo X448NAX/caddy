@@ -33,6 +33,7 @@ import (
 	_ "github.com/caddyserver/caddy/v2/modules/standard"
 	_ "github.com/caddy-dns/cloudflare"
 	_ "github.com/caddyserver/nginx-adapter"
+	_ "github.com/greenpau/caddy-auth-portal"
 )
 
 func main() {
